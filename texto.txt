@@ -1,1 +1,5 @@
+
+Combinação das duas alterações: 
 Outra alteração diferente agora na branch main
+Alteração na branch feature-1
+
