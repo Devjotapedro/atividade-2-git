@@ -1,0 +1,19 @@
+João Pedro de Souza Coringa
+
+comandos na ordem:
+
+mkdir atividade-2-git
+cd atividade-2-git/
+git clone https://gitlab.com/mizael.cortez/curso-branchs-ifrn-ead .
+git add texto.txt
+git commit -m "feat: adiciona texto.txt"
+git checkout -b feature-1
+git add texto.txt
+git commit -m "feat: modificado o arquivo texto.txt na branch feature-1"
+git checkout main
+git add .
+git commit -m "feat: modificado o arquivo texto.txt na branch main"
+git merge feature-1
+git add .
+git commit -m "merge: resolvendo o conflito entre a main e feature-1"
+git checkout -b add-comandos
